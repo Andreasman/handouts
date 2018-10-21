@@ -16,4 +16,11 @@ In das Verzeichnis wechseln welches Versioniert werden soll.
 .Dateien erstmalig in das lokale Repo speichern
 image::images/Image-211018-111959.401.png[]
 
+.dem Projekt das github Remote Repository bekannt machen
+ git remote add origin https://github.com/Andreasman/[reponame]
 
+.Dateien auf github pushen
+ git push origin master
+ 
+.Struktur von GIT
+image::images/Image-211018-073537.348.png[]
