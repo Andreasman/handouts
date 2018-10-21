@@ -1,0 +1,49 @@
+= Linux Befehle
+
+== Verzeichnisse
+
+
+== System überprüfen
+
+.Systemauslastung
+ top
+ 
+.Speicherauslastung (**h**uman, nur **l**okale)
+ df -hl
+ 
+.hostnamen feststellen
+ cat /etc/hostname
+ 
+== Dateisystem, -verwaltung
+
+
+[width="100%"]
+|====================
+| cp    |  Kopieren von Dateien und Verzeichnissen
+| ls    | Auflisten von Dateien (-l = langform, -a = auch versteckte)
+| rm    | löschen von Dateinen und Verzeichnissen 
+| pwd   | aktuelles Verzeichnis  
+|  |  
+|  |  
+|====================
+
+ 
+.Dateiwerkzeuge
+[width="100%",options="header"]
+|====================
+| Befehl    | Beschreibung 
+| diff      | Vergleich des Inhalts zweier Dateien 
+| grep      | durchsuchen von Dateien 
+| rename    | umbenennen von Dateien 
+| tail      | ausgabe der letzten 10 Zeilen einer Datei (-n Anzahl, -f "live Anzeige") 
+| xx | xx 
+|====================
+
+== SSH
+
+=== SSH-Anmeldung ohne Passwort
+
+Mit Puttygen die Keys generieren.
+
+image::images/Image-091018-073108.769.png[]
+
