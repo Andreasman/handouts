@@ -1,0 +1,16 @@
+= Pi Hole auf dem Raspberry
+
+== Raspian installieren
+
+.Betriebssystem raspian downloden
+ https://www.raspberrypi.org/downloads/raspbian/
+ 
+* Raspian Stretch als Zip downloaden
+* Image mit Win32Imager auf Karte kopieren
+* Datei "ssh" im Rootverzeichnis der Karte erstellen um ssh zu aktivieren
+* Raspi an Netwerk anschließen und booten
+
+ Benuzer: pi
+ Standardpasswort: raspberry
+ 
+
